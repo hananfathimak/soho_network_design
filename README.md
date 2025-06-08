@@ -67,7 +67,12 @@ Each PC is manually assigned:
 - Default gateway used to forward traffic to other networks.
 
 ---
+## 📦 Files Included
 
+- `.pkt` file with the full Packet Tracer simulation
+
+ ---
+  
 ## 🧑‍💻 Skills Demonstrated
 
 - Basic network design
