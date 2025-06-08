@@ -68,14 +68,6 @@ Each PC is manually assigned:
 
 ---
 
-## 📦 Files Included
-
-- `.pkt` file with the full Packet Tracer simulation
-- Screenshots showing the working topology and command-line outputs
-- This `README.md` for documentatio
-
----
-
 ## 🧑‍💻 Skills Demonstrated
 
 - Basic network design
