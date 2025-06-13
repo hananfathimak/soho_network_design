@@ -21,6 +21,7 @@ XYZ LLC is expanding and currently operates all devices under a single IP networ
 - Implements routing for inter-department communication.
 - Uses a combination of wired and wireless devices.
 - Simulates real-world connectivity and traffic flow.
+- Adds DHCP configuration to automate IP address assignment.
 
 ---
 
@@ -32,7 +33,7 @@ XYZ LLC is expanding and currently operates all devices under a single IP networ
 | Switches           | Connect PCs within each department |
 | Router             | Enable communication between departments |
 | Wireless Router    | Provide wireless access to mobile devices |
-| Laptop & Smartphone| Wireless devices                 |
+| Laptop & Smartphone| Wireless end devices                 |
 | ISP Cloud          | Simulated internet connection    |
 
 ---
@@ -40,8 +41,8 @@ XYZ LLC is expanding and currently operates all devices under a single IP networ
 ## 🔌 Connections Used
 
 - Copper Straight-Through: PC to Switch, Switch to Router
-- Automatically connected wireless devices (smartphone, laptop to wireless router)
-- Connections configured manually in the workspace
+- Wireless connections:Laptop and Smartphone automatically connect to the Wireless Router
+- Configuration:All physical and wireless connections were manually configured in Cisco Packet Tracer workspace
 
 ---
 
