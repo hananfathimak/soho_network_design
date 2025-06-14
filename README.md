@@ -48,24 +48,28 @@ XYZ LLC is expanding and currently operates all devices under a single IP networ
 
 ## 🔧 Configuration Overview
 
-### IPv4 Addressing (Static)
-Each PC is manually assigned:
-- **IP Address**: e.g., `192.168.10.10`
-- **Subnet Mask**: `255.255.255.0`
-- **Default Gateway**: Router interface IP
+### IPv4 Addressing (Static & Dynamic)
+- Static IP addresses assigned to selected PCs (e.g., 192.168.10.10)
+- DHCP used to dynamically assign IPs to other end devices
+- **Subnet Mask**: 255.255.255.0
+- **Default Gateway**: Corresponding router interface IP
+
 
 ### Router Configuration
-- Assigned IP addresses to router ports
-- Enabled interfaces using `no shutdown` command
-- Verified routing using `ping` and command-line tools
+- Assigned IP addresses to router interfaces
+- Configured DHCP pools for dynamic IP assignment
+- Enabled interfaces using the `no shutdown` command
+- Verified connectivity using `ping`, `tracert`, and command-line tools
+
 
 ---
 
 ## ✅ Results
-
 - Successful communication between devices in the same and different departments.
 - Packets routed correctly using configured IP addresses and gateways.
-- Default gateway used to forward traffic to other networks.
+- DHCP successfully assigned IPs to 50+ PCs.
+- Wireless and wired devices accessed the network and internet correctly.
+
 
 ---
 ## 📦 Files Included
@@ -74,22 +78,24 @@ Each PC is manually assigned:
 
  ---
   
-## 🧑‍💻 Skills Demonstrated
+## 🔒 Skills Demonstrated
 
-- Basic network design
-- IP addressing (static and DHCP)
-- Subnetting and network segmentation
-- Router and switch configuration
-- Use of Cisco Packet Tracer for simulation
-- Troubleshooting network issues
+- Designed basic LAN and inter-departmental network topology.
+- Configured IP addressing using both Static and DHCP methods.
+- Implemented subnetting and logical network segmentation.
+- Configured routers and switches for department-level communication.
+- Simulated network behavior using Cisco Packet Tracer.
+- Diagnosed and resolved basic network connectivity issues.
+
 
 ---
 
 ## 📝 Notes
 
-- IP addresses like `192.168.x.x` are **private IPs** used within local networks.
-- The subnet mask `255.255.255.0` defines how many IPs are available in each subnet.
-- The default gateway is the router IP that sends traffic to other networks.
+- IP addresses like `192.168.x.x` are **private IPs**, used within local networks and not routable on the internet.
+- The subnet mask `255.255.255.0` allows up to 254 usable IP addresses per subnet.
+- The **default gateway** is the router’s IP address that forwards traffic to external or other subnets.
+
 
 ---
 
